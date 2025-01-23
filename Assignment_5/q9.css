@@ -1,0 +1,36 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+.pricing-plan {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.pricing-plan:hover {
+    transform: scale(1.05);
+}
+.popular-plan {
+    background-color: #f1c40f;
+    border-color: #f39c12;
+}
+.plan-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.plan-button:hover {
+    background-color: #2980b9;
+}
