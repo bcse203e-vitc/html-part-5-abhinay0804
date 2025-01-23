@@ -1,0 +1,46 @@
+.butt{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+.b1{
+    background: linear-gradient(to right,rgb(253, 182, 194),rgb(196, 196, 252));
+    padding: 35px 60px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 5px;
+}
+.b1:hover{
+    transform: scale(1.15);
+}
+.b2{
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: rgb(218, 79, 79);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+.b2:hover{
+    background-color: rgb(233, 167, 167);
+    border-color: blue;
+    
+}
+.b3{
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgba(52, 152, 219);
+    color: white;
+    background-color: rgb(46, 66, 53);
+    transition: box-shadow 0.3s ease;
+}
+.b3:hover{
+    box-shadow: 0 0 20px rgba(52, 152, 219);
+}
